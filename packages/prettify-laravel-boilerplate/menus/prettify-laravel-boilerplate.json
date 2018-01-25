@@ -1,0 +1,26 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Prettify Code",
+                "command": "prettify-laravel-boilerplate:prettify"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Format Code",
+                    "submenu": [
+                        {
+                            "label": "Format",
+                            "command": "format-code:format"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

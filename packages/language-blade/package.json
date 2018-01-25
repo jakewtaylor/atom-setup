@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+        "spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/apm-install-dir-1171111-1845-eepovp.1y10rg4x6r"
+    ]
+  ],
+  "_from": "../d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+  "_id": "language-blade@0.38.0",
+  "_inCache": true,
+  "_location": "/language-blade",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+    "spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+  "_shasum": "dff615c10fa2c39405faf9aa991433646ac633a5",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171111-1845-1uryrqj.pll3wpzaor/package.tgz",
+  "_where": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/apm-install-dir-1171111-1845-eepovp.1y10rg4x6r",
+  "bugs": {
+    "url": "https://github.com/jawee/language-blade/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax highlighter for the Blade templating engine used in Laravel",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jawee/language-blade#readme",
+  "license": "MIT",
+  "main": "./lib/language-blade",
+  "name": "language-blade",
+  "optionalDependencies": {},
+  "readme": "# Blade templating support in Atom\n\nOriginally [Converted](http://atom.io/docs/latest/converting-a-text-mate-bundle) from [Blade textmate tmbundle](https://github.com/outofcontrol/Blade.tmbundle)\n\nContributions are greatly appreciated. Please fork this repository and open a\npull request to add snippets, make grammar tweaks, etc.\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawee/language-blade.git"
+  },
+  "version": "0.38.0"
+}

@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+        "spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/apm-install-dir-1171029-3847-1r919a.f2o18dj9k9"
+    ]
+  ],
+  "_from": "../d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+  "_id": "prettify-laravel-boilerplate@1.1.1",
+  "_inCache": true,
+  "_location": "/prettify-laravel-boilerplate",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+    "spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+  "_shasum": "1bcee7ac0d1d620436f44146d1fe5d8d47a4fbb2",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-1171029-3847-g8i0hv.htj2jiqkt9/package.tgz",
+  "_where": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/apm-install-dir-1171029-3847-1r919a.f2o18dj9k9",
+  "activationCommands": {
+    "atom-workspace": "prettify-laravel-boilerplate:prettify"
+  },
+  "bugs": {
+    "url": "https://github.com/pcfutures/prettify-laravel-boilerplate/issues"
+  },
+  "dependencies": {},
+  "description": "Converts laravel boilerplate code into my desired style",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/pcfutures/prettify-laravel-boilerplate#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/prettify-laravel-boilerplate",
+  "name": "prettify-laravel-boilerplate",
+  "optionalDependencies": {},
+  "readme": "# prettify-laravel-boilerplate\n\nConverts boilerplate Laravel files to my preferred styles:\n\nRun the command `prettify-laravel-boilerplate:prettify` or use the packages menu to run the script.\n\n## Classes\n\n`/(class|extends|implements) +(\\w+)[\\s]*\\{/g` -> `$1 $2 {`\n\n```PHP\nclass User extends Authenticatable\n{\n    ...\n}\n```\n\nbecomes\n\n```PHP\nclass User extends Authenticatable {\n    ...\n}\n```\n\n## Functions\n\n`/(?:function) +(\\w+) *\\(([\\$\\w\\,\\=\\'\\\"\\s]*)\\)\\s*\\{/g` -> `function $1 ($2) {`\n\n```PHP\nfunction index()\n{\n    ...\n}\n```\n\nbecomes\n\n```PHP\nfunction index () {\n    ...\n}\n```\n\n## DocBlocks\n\n`/\\n* *\\/\\*\\*[\\s\\S]*?\\*\\//g` -> ``\n\nDocBlocks (any multiline comments starting with `/**`) get removed.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcfutures/prettify-laravel-boilerplate.git"
+  },
+  "version": "1.1.1"
+}

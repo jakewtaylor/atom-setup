@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-11726-2497-n39uht/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-11726-2497-n39uht/package.tgz",
+        "spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-11726-2497-n39uht/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/apm-install-dir-11726-2497-7b0j1b"
+    ]
+  ],
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  },
+  "_from": "../d-11726-2497-n39uht/package.tgz",
+  "_id": "haskell-grammar@0.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/haskell-grammar",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-11726-2497-n39uht/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-11726-2497-n39uht/package.tgz",
+    "spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-11726-2497-n39uht/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11726-2497-n39uht/package.tgz",
+  "_shasum": "83650bfbb89879734e06de90eab8cf6029128bd9",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/d-11726-2497-n39uht/package.tgz",
+  "_where": "/private/var/folders/_m/dqd1wr2x6mq4h7bz3l2wnp7m0000gn/T/apm-install-dir-11726-2497-7b0j1b",
+  "bugs": {
+    "url": "https://github.com/chriswins2much/atom-haskell-grammar/issues"
+  },
+  "dependencies": {},
+  "description": "Haskell language support in Atom. Add syntax highlighting to Haskell files!",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/chriswins2much/atom-haskell-grammar",
+  "license": "MIT",
+  "name": "haskell-grammar",
+  "optionalDependencies": {},
+  "readme": "# haskell-grammar package\n\nHaskell language support for the Atom text editor.\n\n![A screenshot of a Haskell document!](https://raw.githubusercontent.com/chriswins2much/atom-haskell-grammar/master/Screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriswins2much/atom-haskell-grammar.git"
+  },
+  "version": "0.4.0"
+}
